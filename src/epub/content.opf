@@ -40,9 +40,10 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Fantasy</meta>
-		<dc:description id="description">DESCRIPTION.</dc:description>
+		<dc:description id="description">This epic poem follows a greek warrior trying to return home.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;LONG DESCRIPTION.&lt;/p&gt;
+			&lt;p&gt;Dated back to the archaic period of Classical Antiquity, &lt;i&gt;The Odyssey&lt;/i&gt; is one of the oldest works of Western literature. Homer’s epic poem belongs in a collection called the Epic Cycle, and it was originally written in ancient Greek and utilized a dactylic hexameter rhyming scheme. Although this rhyming scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan (Editor Eric) humorously described it, resemble “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by converting his translation into blank verse.&lt;/p&gt;
+			&lt;p&gt;This epic poem opens at the end of the Trojan War. Ulysses, one of Achaean leaders, must travel across the Mediteranean Sea to return to his home in Ithica. Unfortunately, our hero manages to anger Neptune, the god of the sea. While Ulysses is trying to make his way towards home, his wife, Penelope, and son, Telemachus, are bombarded by suitors trying to persuade Penelope into marraige.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://archive.org/details/odysseyofhomer1899home1/mode/2up</dc:source>
