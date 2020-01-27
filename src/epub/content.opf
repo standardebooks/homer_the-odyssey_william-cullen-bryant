@@ -29,23 +29,28 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Odyssey</dc:title>
 		<meta property="file-as" refines="#title">Odyssey, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Homer -- Translations into English</dc:subject>
+		<dc:subject id="subject-2">Epic poetry, Greek -- Translations into English</dc:subject>
+		<dc:subject id="subject-3">Odysseus, King of Ithaca (Mythological character)</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
+		<meta property="term" refines="#subject-2">sh2008103294</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Fantasy</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">DESCRIPTION.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;LONG DESCRIPTION.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>PG_URL</dc:source>
+		<dc:source>https://archive.org/details/odysseyofhomer1899home1/mode/2up</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/008673668</dc:source>
+		<dc:source>https://www.google.com/books/edition/The_Odyssey_of_Homer/edgpAAAAYAAJ</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Odyssey</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Odyssey</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/homer_the-odyssey_william-cullen-bryant</meta>
 		<dc:creator id="author">Homer</dc:creator>
 		<meta property="file-as" refines="#author">Homer</meta>
@@ -58,10 +63,11 @@
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n80050495</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Gerard de Lairesse</dc:contributor>
 		<meta property="file-as" refines="#artist">Lairesse, Gerard de</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gerard_de_Lairesse</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n83136134</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
@@ -80,14 +86,66 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-4.xhtml" id="book-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-5.xhtml" id="book-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-6.xhtml" id="book-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-7.xhtml" id="book-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-8.xhtml" id="book-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-9.xhtml" id="book-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-10.xhtml" id="book-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-11.xhtml" id="book-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-12.xhtml" id="book-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-13.xhtml" id="book-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-14.xhtml" id="book-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-15.xhtml" id="book-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-16.xhtml" id="book-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-17.xhtml" id="book-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-18.xhtml" id="book-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-19.xhtml" id="book-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-20.xhtml" id="book-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-21.xhtml" id="book-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-22.xhtml" id="book-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-23.xhtml" id="book-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/book-24.xhtml" id="book-24.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="book-1.xhtml"/>
+		<itemref idref="book-2.xhtml"/>
+		<itemref idref="book-3.xhtml"/>
+		<itemref idref="book-4.xhtml"/>
+		<itemref idref="book-5.xhtml"/>
+		<itemref idref="book-6.xhtml"/>
+		<itemref idref="book-7.xhtml"/>
+		<itemref idref="book-8.xhtml"/>
+		<itemref idref="book-9.xhtml"/>
+		<itemref idref="book-10.xhtml"/>
+		<itemref idref="book-11.xhtml"/>
+		<itemref idref="book-12.xhtml"/>
+		<itemref idref="book-13.xhtml"/>
+		<itemref idref="book-14.xhtml"/>
+		<itemref idref="book-15.xhtml"/>
+		<itemref idref="book-16.xhtml"/>
+		<itemref idref="book-17.xhtml"/>
+		<itemref idref="book-18.xhtml"/>
+		<itemref idref="book-19.xhtml"/>
+		<itemref idref="book-20.xhtml"/>
+		<itemref idref="book-21.xhtml"/>
+		<itemref idref="book-22.xhtml"/>
+		<itemref idref="book-23.xhtml"/>
+		<itemref idref="book-24.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
