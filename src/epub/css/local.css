@@ -1,15 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-
-.signature{
-	font-variant: small-caps;
-}
-
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -21,6 +12,11 @@ span[epub|type~="subtitle"]{
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
+}
+
+/* Override text-align: left; imposed by the parent z3998:poem style */
+[epub|type~="bridgehead"]{
+	text-align: justify !important;
 }
 
 [epub|type~="z3998:poem"] p{
@@ -38,15 +34,20 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 /* Indent the first line of stanzas. */
 [epub|type~="z3998:poem"] p > span:first-child{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:poem"] header + p > span:first-child{
+	text-indent: -1em;
+}
+
 abbr.era{
 	font-variant: all-small-caps;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
 }
