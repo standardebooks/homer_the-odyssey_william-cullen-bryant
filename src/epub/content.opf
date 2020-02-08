@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-02-08T01:55:23Z</dc:date>
+		<meta property="dcterms:modified">2020-02-08T01:55:23Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,17 +40,17 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Fantasy</meta>
-		<dc:description id="description">This epic poem follows a Greek hero trying to return home.</dc:description>
+		<dc:description id="description">An epic poem following a Greek hero trying to return home after the Trojan war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The &lt;i&gt;Odyssey&lt;/i&gt; is one of the oldest works of Western literature, dating back to classical antiquity. Homer’s epic poem belongs in a collection called the Epic Cycle, which includes the &lt;i&gt;Iliad&lt;/i&gt;. It was originally written in ancient Greek and utilized a dactylic hexameter rhyme scheme. Although this rhyme scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan humorously describes it, resembles “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by converting his translation into blank verse.&lt;/p&gt;
-			&lt;p&gt;This epic poem follows, Ulysses, one of Greek leaders that brought an end to the 10-year-long Trojan War. Longing for home, he must travel across the Mediterranean Sea to return to his kingdom in Ithica; unfortunately, our hero manages to anger Neptune, the god of the sea, making his trip home agonizingly slow and extremely dangerous. While Ulysses is trying to return home, his family in Ithica is also in danger. Suitors have traveled to the home of Ulysses to marry his wife, Penelope, believing that her husband did not survive the war. These men are willing to kill anyone who stands in their way.&lt;/p&gt;
+			&lt;p&gt;The &lt;i&gt;Odyssey&lt;/i&gt; is one of the oldest works of Western literature, dating back to classical antiquity. Homer’s epic poem belongs in a collection called the Epic Cycle, which includes the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant"&gt;Iliad&lt;/a&gt;&lt;/i&gt;. It was originally written in ancient Greek and utilized a dactylic hexameter rhyme scheme. Although this rhyme scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan humorously describes it, resembles “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by converting his translation into blank verse.&lt;/p&gt;
+			&lt;p&gt;This epic poem follows Ulysses, one of the Greek leaders that brought an end to the 10-year-long Trojan war. Longing for home, he must travel across the Mediterranean Sea to return to his kingdom in Ithica; unfortunately, our hero manages to anger Neptune, the god of the sea, making his trip home agonizingly slow and extremely dangerous. While Ulysses is trying to return home, his family in Ithica is also in danger. Suitors have traveled to the home of Ulysses to marry his wife, Penelope, believing that her husband did not survive the war. These men are willing to kill anyone who stands in their way.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://archive.org/details/odysseyofhomer1899home1</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008673668</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Odyssey_of_Homer/edgpAAAAYAAJ</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">120124</meta>
+		<meta property="se:reading-ease.flesch">70.97</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Odyssey</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/homer_the-odyssey_william-cullen-bryant</meta>
 		<dc:creator id="author">Homer</dc:creator>
@@ -79,6 +79,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
