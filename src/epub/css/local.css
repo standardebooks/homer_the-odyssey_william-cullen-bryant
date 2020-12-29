@@ -9,13 +9,13 @@
 	text-indent: 0;
 }
 
-/* Override text-align: left; imposed by the parent z3998:poem style */
+/* Override text-align: initial; imposed by the parent z3998:poem style */
 [epub|type~="bridgehead"]{
 	text-align: justify !important;
 }
 
 [epub|type~="z3998:poem"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
