@@ -29,6 +29,10 @@
 	display: none;
 }
 
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
+
 /* Indent the first line of stanzas. */
 [epub|type~="z3998:poem"] p > span:first-child{
 	text-indent: 0;
