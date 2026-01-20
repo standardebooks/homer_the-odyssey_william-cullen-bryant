@@ -50,7 +50,7 @@
 		<dc:source>https://archive.org/details/odysseyofhomer1899home1</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008673668</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Odyssey_of_Homer/edgpAAAAYAAJ</dc:source>
-		<meta property="se:word-count">120123</meta>
+		<meta property="se:word-count">119501</meta>
 		<meta property="se:reading-ease.flesch">71.07</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Odyssey</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/homer_the-odyssey_william-cullen-bryant</meta>
